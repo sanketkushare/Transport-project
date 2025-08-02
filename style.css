@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav{
+    height:60px;
+    width: 100%;
+    background-color:#0a0908;
+    justify-content: start;
+    display: flex;
+     flex-wrap: wrap;
+    
+    /* flex-wrap: wrap; */
+    /* gap:200px; */
+}
+.nav_logo{
+    margin-left: 10px;
+    height:50px;
+    width:4%;
+    border: 1px solid black;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.logo {
+    background-image: url("./ChatGPT\ Image\ Jul\ 3\,\ 2025\,\ 05_46_01\ PM.png");
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensures the entire image fits */
+    background-position: center; /* Centers the image */
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.border{
+    border:1.5px solid transparent;
+    border-radius: 10%;
+}
+.border:hover{
+    border:1.5px solid rgb(133, 133, 133)
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    /* color: aliceblue; */
+}
+
+.nav-button{
+    height:60px;
+    padding-top: 15px;
+    padding-left: 550px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+
+}
+button{
+    color:aliceblue;
+    background-color: darkcyan;
+    border-radius: 10px;
+    height: 30px;
+}
+.add1{
+   color: aquamarine;
+   display: flex;
+   padding-top:10px;
+   padding-left: 5px;
+   
+}
+
+.add2{
+    padding-left: 6px;
+}
+.A {
+    color: ghostwhite;
+    padding-left: 15px;
+    padding-right: 2px;
+}
+.B {
+    color:ghostwhite;
+    padding-top: 10px;
+    padding-left: 2px;
+}
+.img{
+    
+    /* flex-wrap: wrap; */
+    height: 435px;
+    width: 100%;
+    
+}
+/* .img1{
+    height: 600px;
+    width: 100%;
+} */
+/* .main-img{
+    height:550px;
+    width: auto;
+    background-image: url("./2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 69%;
+} */
+/* .pre{
+    display: inline;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 400px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+} */
+.ser{
+    padding-top: 4px;
+    min-height:670px;
+    width:auto;
+    background-color:#22333b;
+
+   
+    /* display: flex; */
+    flex-wrap: wrap;
+    
+}
+.ser1{
+    /* padding-top: 20px; */
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    color: rgb(228, 212, 202);
+    
+}
+.box-sec{
+   min-height:200px;
+    margin-top:45px;
+    /* //border:1px solid black; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    flex-wrap: wrap;
+    /* //padding-left:150px;
+    //padding-right:150px; */
+    }
+.box{
+    height:235px;
+    width:310px;
+    /* //border:1px solid black; */
+    border-radius:10px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    /* align-items:first baseline; */
+    gap:8px;
+    box-shadow:0px 2px 10px rgb(13, 13, 13);
+    background-color: rgb(202, 193, 206);
+    color: aliceblue;
+    align-items: center;
+    /* text-align: justify; */
+    /* padding-bottom: 30px; */
+    }
+h2{
+    font-size: 18px;
+    color: rgb(11, 10, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.box p{
+    font-size: 14px;
+    color: rgb(11, 12, 12);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+}
+.box img{
+    height:100px;
+    width: 200px;
+    
+}
+.about{
+    min-height:500px;
+    width: auto;
+    background-color:#22333b;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* gap: 10px; */
+    padding-top: 25px;
+    align-items: center;
+
+    /* padding-left: 50px; */
+    vertical-align: middle;
+    
+}
+.about-video{
+    height: 200px;
+    width:450px;
+     padding-top: 10px;
+     /* padding-right: 10px; */
+    /* padding-left: 130px; */
+    /* align-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+}
+ video{
+    min-height:200px;
+     width:440px;
+    position: 50%;
+ }
+ .about1{
+    /* padding-top: 30px; */
+    /* padding-left: 70px; */
+    padding-top: 80px;
+    min-height:200px;
+    width: 500px;
+ }
+ #a{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    color:	rgb(228, 212, 202);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+
+ }
+ #b{
+    color: aliceblue;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+ }
+ #c{
+    color: aliceblue;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+ }
+ .about2{
+    min-height: 100px;
+    width:960px;
+    /* padding-left: 30px; */
+    padding-bottom: 40px;
+    /* justify-content: center; */
+ }
+ .footer{
+    min-height:50px;
+    width: 100%;
+     background-color: black;
+ }
+ .footer1{
+    height:30px;
+    width: 100%;
+    color: aliceblue;
+    /* background-color: #100606c2;  */
+    text-align: center;
+    line-height: 30px;
+ }
+ .author
+ {
+    text-align: center;
+     color: aliceblue;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+
+ }
+ span{
+    color: cornsilk;
+ }
+ .contact{
+    height: 33px;
+    color: aliceblue;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+ }
+ 
